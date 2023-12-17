@@ -5,6 +5,21 @@ ____
 ## My Deeplink Project
 This project is using custom scheme(URI scheme) deeplink.
 
+### Test deeplink on Android Device
+
+```dart
+ adb shell 'am start -a android.intent.action.VIEW \
+    -c android.intent.category.BROWSABLE \
+    -d "myshop://myanmarshop/myphone"' \
+    com.example.my_deeplink
+```
+
+### Test deeplink on iOS Device
+
+```dart
+xcrun simctl openurl booted "myshop://myanmarshop/myphone"
+```
+
 ___
 ## My App Project
 This project is launching My Deeplink app by click button with custom scheme(URI scheme) deeplink.
