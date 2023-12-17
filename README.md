@@ -7,7 +7,7 @@ This project is using custom scheme(URI scheme) deeplink.
 
 ___
 ## My App Project
-This project is using open My Deeplink app by click custom scheme(URI scheme) deeplink.
+This project is launching My Deeplink app by click button with custom scheme(URI scheme) deeplink.
 
 ### GDG Yangon 2023 Powerpoint Slides
 
